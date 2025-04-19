@@ -1,0 +1,19 @@
+<!doctype html>
+<!-- Here we will use some dark class, and elements will have specific attributes on when mode is dark -->
+ <!-- This dark/light we will toggle based on a button -->
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room Chat App</title>
+    <script>
+      var global = window;
+    </script>
+  </head>
+  <!-- hscreen means it will take full height of screen -->
+  <body class="min-h-screen bg-gray-200 text-gray-800 dark:bg-gray-950 dark:text-gray-50">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
